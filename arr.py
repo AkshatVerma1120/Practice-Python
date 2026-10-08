@@ -1,8 +1,8 @@
 import array as a
 
-val = a.array("i", [1, 2, 3, 3,6,7,5,8])
+val = a.array("u", ["a", "t", "c"])
 
-for i in range(0,8):
+for i in range(0,len(val)):
     print(val[i] , end=" ")
 print("\n")
 for x in val:
